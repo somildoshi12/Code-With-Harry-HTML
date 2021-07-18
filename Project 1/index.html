@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: auto;
+        background: url('img/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        left: 250px;
+    }
+
+    .left img {
+        filter: invert(100%);
+        padding-left: 10px;
+        width: 100px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .mid {
+        border: 2px solid rgb(127, 127, 236);
+        display: block;
+        width: 45%;
+        margin: 30px auto;
+        border-radius: 50px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+        font-size: 20px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 30px 5px 30px;
+        border-radius: 20px;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+        background-color: aliceblue;
+        color: black;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/symbol.jpg" alt="">
+            <div>
+                Sonal's kitchen
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="https://cookingshooking.com/microwave-chocolate-cake-recipe-no-egg-super-spongy-cake-in-4-mins-microwave-oven-recipes-cookingshooking/"
+                        target=" ">Cake</a></li>
+                <li><a href="https://cookingshooking.com/vanilla-cupcakes-cebwo/" target=" ">Cupcake</a></li>
+                <li><a href="https://cookingshooking.com/chocolate-ganache-recipe/" target=" ">Chocolate Ganache</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+
+</html>
